@@ -1,0 +1,42 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+        .gridItem{
+            border: 1px solid black;
+        }
+        .gridItem16x16{
+            height: 49px;
+            width: 49px;
+        }
+        .gridItem32x32{
+            height: 24px;
+            width: 24px;
+        }
+        .gridItem64x64{
+            height: 12.5px;
+            width: 12.5px;
+
+        }
+
+}
+body{
+    text-align: center;
+}
+
+.gridFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    padding: 1%;
+    button{
+        padding: 1%;
+        border: 1px black solid;
+    }
+
+}
