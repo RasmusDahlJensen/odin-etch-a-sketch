@@ -8,12 +8,18 @@ const thirtytwo = document.getElementById("32x");
 const sixtyfour = document.getElementById("64x");
 const colorPicker = document.getElementById("colorPicker");
 
+let color = "#000000";
+const changeColor = () => {
+	color = colorPicker.value;
+};
+colorPicker.addEventListener("change", changeColor);
+
 //Coloring
 const coloring = () => {
 	const items = document.querySelectorAll(".gridItem");
 	items.forEach((item) => {
 		item.addEventListener("mouseover", () => {
-			item.style.backgroundColor = "black";
+			item.style.backgroundColor = color;
 		});
 	});
 };
