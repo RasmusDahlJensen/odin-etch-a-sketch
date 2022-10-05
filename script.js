@@ -6,7 +6,7 @@ const reset = document.getElementById("reset");
 const sixteen = document.getElementById("16x");
 const thirtytwo = document.getElementById("32x");
 const sixtyfour = document.getElementById("64x");
-const hundredtwentyeight = document.getElementById("128x");
+
 //Coloring
 const coloring = () => {
 	const items = document.querySelectorAll(".gridItem");
